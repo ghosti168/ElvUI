@@ -109,7 +109,7 @@ do
 	L['INCOMPATIBLE_ADDON'] = "插件 %s 不相容於 ElvUI 的 %s 模組。請停用不相容的插件，或停用模組。";
 
 	L['Panel Texture'] = "對話框材質";
-	L['Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.\n\nPlease Note:\n-The image size recommended is 256x128\n-You must do a complete game restart after adding a file to the folder.\n-The file type must be tga format.\n\nExample: Interface\\AddOns\\ElvUI\\media\\textures\\copy\n\nOr for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.'] = "若要設定對話框背景，請於此資料夾中指定你希望設定為背景的檔案：\nInterface\\AddOns\\ElvUI\\media\\textures \n\n請注意：\n影像大小建議為 256 x 128\n在此資料夾新增檔案後，請務必重新啟動遊戲。\n檔案必須為 tga 格式。";
+	L['Specify a filename located inside the World of Warcraft directory. Textures folder that you wish to have set as a panel background.\n\nPlease Note:\n-The image size recommended is 256x128\n-You must do a complete game restart after adding a file to the folder.\n-The file type must be tga format.\n\nExample: Interface\\AddOns\\ElvUI\\media\\textures\\copy\n\nOr for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.'] = "在魔獸世界資料夾中指定一個檔名。你想要做為對話框背景設定的材質資料夾。\n\n請注意:\n影像尺寸建議為 256x128\n新增一個檔案到資料夾後，務必重新啟動遊戲。\n檔案類型必須是tga格式。\n\n例如: Interface\\AddOns\\ElvUI\\media\\textures\\copy\n\n對大部分使用者更容易把tga檔案放入WOW資料夾中，然後將檔案名稱輸入在這裡。";
 	L["Are you sure you want to disband the group?"] = "確定要解散隊伍?";
 	
 	L["Your version of ElvUI is out of date. You can download the latest version from www.curse.com"] = "您的ElvUI版本已經過期。您可以從 www.curse.com 下載最新版本";
