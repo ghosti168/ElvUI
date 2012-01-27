@@ -173,29 +173,29 @@ local function SetupLayout(isPrimary, layout)
 	if isPrimary then
 		if layout == 'tank' then
 			--datatexts
-			E.db.datatexts.panels.spec1.LeftChatDataPanel.left = L['Armor'];
-			E.db.datatexts.panels.spec1.LeftChatDataPanel.right = L['Avoidance'];
+			E.db.datatexts.panels.spec1.LeftChatDataPanel.left = 'Armor';
+			E.db.datatexts.panels.spec1.LeftChatDataPanel.right = 'Avoidance';
 			
 			--unitframes
 			E.db.unitframe.mainSpec = 'Primary';
 		elseif layout == 'healer' then
 			--datatexts
-			E.db.datatexts.panels.spec1.LeftChatDataPanel.left = L['Spell/Heal Power'];
-			E.db.datatexts.panels.spec1.LeftChatDataPanel.right = L['Haste'];
+			E.db.datatexts.panels.spec1.LeftChatDataPanel.left = 'Spell/Heal Power';
+			E.db.datatexts.panels.spec1.LeftChatDataPanel.right = 'Haste';
 			
 			--unitframes
 			E.db.unitframe.mainSpec = 'Secondary';		
 		elseif layout == 'dpsCaster' then
 			--datatexts
-			E.db.datatexts.panels.spec1.LeftChatDataPanel.left = L['Spell/Heal Power'];
-			E.db.datatexts.panels.spec1.LeftChatDataPanel.right = L['Haste'];
+			E.db.datatexts.panels.spec1.LeftChatDataPanel.left = 'Spell/Heal Power';
+			E.db.datatexts.panels.spec1.LeftChatDataPanel.right = 'Haste';
 			
 			--unitframes
 			E.db.unitframe.mainSpec = 'Primary';			
 		else
 			--datatexts
-			E.db.datatexts.panels.spec1.LeftChatDataPanel.left = L['Attack Power'];
-			E.db.datatexts.panels.spec1.LeftChatDataPanel.right = L['Crit Chance'];
+			E.db.datatexts.panels.spec1.LeftChatDataPanel.left = 'Attack Power';
+			E.db.datatexts.panels.spec1.LeftChatDataPanel.right = 'Crit Chance';
 			
 			--unitframes
 			E.db.unitframe.mainSpec = 'Primary';			
@@ -206,29 +206,29 @@ local function SetupLayout(isPrimary, layout)
 	else
 		if layout == 'tank' then
 			--datatexts
-			E.db.datatexts.panels.spec2.LeftChatDataPanel.left = L['Armor'];
-			E.db.datatexts.panels.spec2.LeftChatDataPanel.right = L['Avoidance'];
+			E.db.datatexts.panels.spec2.LeftChatDataPanel.left = 'Armor';
+			E.db.datatexts.panels.spec2.LeftChatDataPanel.right = 'Avoidance';
 			
 			--unitframes
 			E.db.unitframe.offSpec = 'Primary';
 		elseif layout == 'healer' then
 			--datatexts
-			E.db.datatexts.panels.spec2.LeftChatDataPanel.left = L['Spell/Heal Power'];
-			E.db.datatexts.panels.spec2.LeftChatDataPanel.right = L['Haste'];
+			E.db.datatexts.panels.spec2.LeftChatDataPanel.left = 'Spell/Heal Power';
+			E.db.datatexts.panels.spec2.LeftChatDataPanel.right = 'Haste';
 			
 			--unitframes
 			E.db.unitframe.offSpec = 'Secondary';		
 		elseif layout == 'dpsCaster' then
 			--datatexts
-			E.db.datatexts.panels.spec2.LeftChatDataPanel.left = L['Spell/Heal Power'];
-			E.db.datatexts.panels.spec2.LeftChatDataPanel.right = L['Haste'];
+			E.db.datatexts.panels.spec2.LeftChatDataPanel.left = 'Spell/Heal Power';
+			E.db.datatexts.panels.spec2.LeftChatDataPanel.right = 'Haste';
 			
 			--unitframes
 			E.db.unitframe.offSpec = 'Primary';			
 		else
 			--datatexts
-			E.db.datatexts.panels.spec2.LeftChatDataPanel.left = L['Attack Power'];
-			E.db.datatexts.panels.spec2.LeftChatDataPanel.right = L['Crit Chance'];
+			E.db.datatexts.panels.spec2.LeftChatDataPanel.left = 'Attack Power';
+			E.db.datatexts.panels.spec2.LeftChatDataPanel.right = 'Crit Chance';
 			
 			--unitframes
 			E.db.unitframe.offSpec = 'Primary';			
